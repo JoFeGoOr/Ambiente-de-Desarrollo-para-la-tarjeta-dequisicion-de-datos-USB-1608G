@@ -1,9 +1,8 @@
 # Ambiente de desarrollo para la tarjeta de adquisición de datos USB 1608G Series.
 -----------------------------------------
-En estas instrucciones se detallan los pasos para instalar el software necesario para desarrollar código en el lenguaje de programación Python para el uso de la tarjeta de adquisición de datos USB-1608G Series. 
-Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS.
+En estas instrucciones se detallan los pasos para instalar el software necesario con el fin de desarrollar código en el lenguaje de programación Python para el uso de la tarjeta de adquisición de datos USB-1608G Series. Todo esto está realizado dentro de un PC con Ubuntu 20.04 LTS.
 
-- Lo primero que se debe hacer es actualizar las librerías necesarias para la instalación de la llamada "librería universal" (UL) para dispositivos de medidas DAQ, para ello debemos correr el siguiente comando en la terminal.
+- Lo primero que se debe hacer es actualizar las librerías necesarias para la instalación de la llamada "librería universal" (UL), para ello debemos correr el siguiente comando en la terminal.
 
    $ sudo apt-get install gcc g++ make
    $ sudo apt-get install libusb-1.0-0-dev
@@ -16,7 +15,7 @@ Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS.
   $ ./configure && make
   $ sudo make install
   
-- Ya instaladas las librería, procedemos a instalar Python en nuestro SO, cabe destacar que muchas veces y por varias razones, puede que alguna versión de Python ya este instalada en nuestro SO, afortunadamente para el uso de esta librería necesitamos la versión de Python 3.4 o superior, pero ademas necesitamos algunos paquetes propios de Python como pip, setuptools y wheels, lamentablemente, si es que no se instala Python desde el instalador provisto desde https://Python.org estos no se encontraran presentes.
+- Ya instalada la librería, procedemos a instalar Python en nuestro SO, cabe destacar que muchas veces y por varias razones, puede que alguna versión de Python ya este instalada en nuestro SO, afortunadamente para el uso de esta librería necesitamos la versión de Python 3.4 o superior, pero ademas necesitamos algunos paquetes propios de Python como pip, setuptools y wheels, lamentablemente, si es que no se instala Python desde el instalador provisto desde https://Python.org estos no se encontraran presentes.
 
 - Primero nos aseguramos de tener Python instalado y en su versión 3.4 o superior, para ello se ejecuta el siguiente comando.
 
@@ -31,7 +30,7 @@ Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS.
   $ sudo apt update
   $ sudo apt install python3-venv python3-pip
   
-- Una vez instalado pip procedemos a instalar y/o actualizar todos los paquetes, para ello, ejecutamos el siguiente código.
+- Una vez instalado pip procedemos a instalar y actualizar todos los paquetes restantes, para ello, ejecutamos el siguiente código.
 
   $ python3 -m pip install --upgrade pip setuptools wheel
   
@@ -43,12 +42,12 @@ Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS.
 
 - https://files.pythonhosted.org/packages/9d/9d/cae9cbdb8285730e8c7a6eae85f6120330a8e833a97cec95d9e288c3dfba/uldaq-1.2.3.tar.gz
 
-- Copiamos el archivo comprimido en alguna carpeta que sea conveniente, descomprimimos el contenido, veremos que dentro de la carpeta descomprimida hay una carpeta de ejemplo llamada "examples", abrimos esta carpeta y nos podremos dar cuenta que viene con mucho archivo .py, estos son los ejemplo, y pueden ser ejecutados desde la terminal navegando a la carpeta con los ejemplos.
+- Copiamos el archivo comprimido en alguna carpeta que sea conveniente, descomprimimos el contenido, veremos que dentro de la carpeta descomprimida hay una carpeta de ejemplos llamada "examples", abrimos esta carpeta y nos podremos dar cuenta que viene con muchos archivos .py, estos son los ejemplos y pueden ser ejecutados desde la terminal navegando a la carpeta con los ejemplos.
 
 - Desde aquí ya podría usarse cualquier editor de texto para abrir los ejemplos y ver su código o en su defecto generar nuestro propios archivos .py, se recomienda leer la documentación de uldaq para saber como interactuar con la tarjeta de adquisición de datos desde Python.
 
 -----------------------------------------------------------
-# instalación del editor de texto VScode junto con github para el desarrollo de código y control de versiones
+# Instalación del editor de texto VScode junto con github para el desarrollo de código y control de versiones
 
 Los siguientes pasos no son obligatorios para generar archivos .py pero el autor de esta guiá de instalación recomienda fuertemente este ambiente de diseño pues es bastante robusto y de acceso gratuito.
 
