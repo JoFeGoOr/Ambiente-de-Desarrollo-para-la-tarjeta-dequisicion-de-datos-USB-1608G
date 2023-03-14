@@ -52,7 +52,7 @@ Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS.
 
 Los siguientes pasos no son obligatorios para generar archivos .py pero el autor de esta guiá de instalación recomienda fuertemente este ambiente de diseño pues es bastante robusto y de acceso gratuito.
 
-- Lara utilizar VScode junto a github, debemos primero que todo tener un cuenta en github y tener a disposición, el nombre de usuario y el mail de registro.
+- Para utilizar VScode junto a github, debemos primero que todo tener un cuenta en github y tener a disposición, el nombre de usuario y el mail de registro.
 
 - Luego instalaremos git, software dedicado al control de versión, github es una entidad aparte que permite realizar un control de versiones remoto, pero necesita del software git, para instalarlo debemos ejecutar lo siguiente.
 
