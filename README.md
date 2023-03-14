@@ -1,4 +1,4 @@
-# Ambiente-de-Desarrollo-para-la-tarjeta-dequisicion-de-datos-USB-1608G Series.
+# Ambiente de desarrollo para la tarjeta dequisicion de datos USB 1608G Series.
 --------------------------------------
 En estas instrucciones se detallan los pasos para instalar el software necesario para desarrollar codigo en el lenguaje de programación Python para el uso de la tarjeta de aquisicion de datos USB-1608G Series.
 Todo esto esta realizado dentro de un PC con Ubuntu 20.04 LTS
